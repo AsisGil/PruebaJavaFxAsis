@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="436.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controlador">
+   <children>
+      <BorderPane layoutX="175.0" layoutY="62.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                  <AnchorPane prefHeight="81.0" prefWidth="215.0" GridPane.rowIndex="1">
+                     <children>
+                        <TextField layoutX="68.0" layoutY="2.0" promptText="Nombre y Apellidos" AnchorPane.leftAnchor="68.0" AnchorPane.rightAnchor="68.0" />
+                        <TextField layoutX="68.0" layoutY="48.0" promptText="Correo electronico" AnchorPane.leftAnchor="68.0" AnchorPane.rightAnchor="68.0" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="-57.0" prefHeight="42.0" prefWidth="148.0" styleClass="titulo" stylesheets="@../application.css" text="FORMULARIO" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                     <children>
+                        <TextField layoutX="67.0" layoutY="2.0" promptText="Direccion" />
+                        <TextField layoutX="67.0" layoutY="45.0" promptText="DNI" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+                     <children>
+                        <Button layoutX="100.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#closeStage" styleClass="botongithub" stylesheets="@../application.css" text="Enviar y Salir">
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                        <Button layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#github" styleClass="botongithub" stylesheets="@../application.css" text="GITHUB">
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </center>
+         <bottom>
+            <AnchorPane prefHeight="40.0" prefWidth="600.0" styleClass="bordesegunda2" stylesheets="@../application.css" BorderPane.alignment="CENTER" />
+         </bottom>
+         <left>
+            <AnchorPane prefHeight="320.0" prefWidth="40.0" styleClass="bordesegunda1" stylesheets="@../application.css" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <AnchorPane prefHeight="320.0" prefWidth="40.0" styleClass="bordesegunda1" stylesheets="@../application.css" BorderPane.alignment="CENTER" />
+         </right>
+         <top>
+            <AnchorPane prefHeight="40.0" prefWidth="600.0" styleClass="bordesegunda2" stylesheets="@../application.css" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+.borde{
+   -fx-border-color: orange;
+   -fx-border-radius: 15.0;
+   	-fx-background-color: #008080;
+}
+
+.botongithub{
+	   	-fx-background-color: #008080;
+	    -fx-text-fill: white;
+}
+.bordesegunda1{
+	   	-fx-background-color: brown;
+	    -fx-text-fill: white;
+}
+.bordesegunda2{
+	   	-fx-background-color: gray;
+	    -fx-text-fill: white;
+}
+
+.titulo{
+	  -fx-font-family: "HipsterishFontNormal";
+ 	 -fx-text-fill: #008080;
+     -fx-font-size: 23px;
+     
+     
+}
